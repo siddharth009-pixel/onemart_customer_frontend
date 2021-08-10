@@ -1,0 +1,8 @@
+
+
+.cardContainer img{
+    padding: 10px 10px;
+    object-fit: contain;
+    width: 100%;
+    justify-content: center;
+}

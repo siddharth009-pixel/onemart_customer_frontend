@@ -1,0 +1,130 @@
+
+.menuHeader{
+    top:56px;
+    position: sticky;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(229, 229, 238);
+    border-bottom: 1px solid #cecece ;
+    box-shadow: 0px 2px 2px -2px #333;
+}
+.menuHeader ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.menuHeader > ul{
+    display: flex;
+    margin: 0 50px;
+    position: relative;
+}
+.menuHeader > ul > li > span{
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menuHeader>ul>li>span:hover{
+    color: #2874f0;
+}
+.menuHeader > ul > li > ul{
+    position: absolute;
+    background: whitesmoke;
+    top: 40px;
+    display: none;
+    left: 0;
+    right: 0;
+    border: 1px solid #cecece;
+}
+.menuHeader > ul > li:hover ul{
+    display: block;
+}
+.menuHeader >ul >li >ul>li{
+    margin: 0 0px;
+    float: left;
+}
+.menuHeader>ul>li>ul>li>a{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+}
+.menuHeader>ul>li>ul>li a{
+    padding: 3px 0;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.menuHeader>ul>li>ul>li>a{
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+.menuHeader>ul>li>ul>li a{
+    padding: 2px 10px;
+}
+
+.menuHeader>ul>li>ul>li{
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+/* .menuHeader > ul > li > ul > li > a {
+    display: block;
+    padding: 3px 0;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.menuHeader > ul > li:hover >ul{
+border: 1px solid #333;
+box-shadow: 0px 2px 2px -2px #333;
+}
+
+.menuHeader > ul > li{
+    display: block;
+    height: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+}
+.menuHeader > ul > li > a{
+    text-align: center;
+    justify-content: center;
+}
+
+.menuHeader > ul > li:hover a{
+    color: blue;
+}
+
+.menuHeader > ul > li > ul > li {
+    float: left;
+    min-width: 150px;
+}
+
+
+.menuHeader > ul > li > ul > li a {
+    display: block;
+    font-weight: bold;
+}
+
+.menuHeader > ul > li > ul > li >span {
+    display: block;
+    font-weight: bold;
+}
+ */
